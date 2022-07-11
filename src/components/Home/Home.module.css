@@ -1,0 +1,105 @@
+
+.home {
+  background-color: #1c1d25;
+  border-bottom: 1vw solid var(--color-primary);
+  box-shadow: 0 1rem 2rem rgba(51, 51, 51, 0.4); 
+  color: var(--color-light);
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 15rem 0 30rem 0; 
+}
+
+.heroPresentation {
+  margin-left: 10rem; 
+  padding-top: 10rem;
+}
+
+.heroSocial {
+  align-items: center;
+  content: "";
+  display: flex;
+  flex-direction: column;
+  height: 35rem;
+  justify-content: space-evenly;
+  margin-right: 5rem;
+}
+
+.headingOne {
+  color: var(--color-primary);
+  font-size: 8rem;
+  font-weight: 400; 
+}
+
+.headingTwo {
+  color: var(--color-light);
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.3rem; 
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 75em) {
+
+  .heroPresentation {
+    margin-left: 10rem; 
+  } 
+}
+
+@media only screen and (max-width: 56.25em) {
+
+  .hero {
+    flex-direction: column;
+    padding: 15rem 0 15rem 0; 
+  }
+
+  .heroIcon {
+    padding: 3rem; 
+  } 
+
+  .heroPresentation {
+    margin: auto;
+    padding: 5rem 0;
+    text-align: center;
+    }
+
+  .heroSocial {    
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+
+  .hero {
+    padding: 15rem 0 25rem 0; 
+  }
+  
+  .hero h1 {
+    font-size: 6rem; 
+  }
+
+  .hero h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    padding: 2rem 0;
+  }
+
+  .heroIcon {
+    height: 5rem;
+    padding: 1.5rem;
+    width: 5rem; 
+  } 
+}
+
+@media only screen and (max-width: 31.25em) {
+  
+  .hero {
+    padding: 2rem 0 15rem 0; 
+  } 
+}

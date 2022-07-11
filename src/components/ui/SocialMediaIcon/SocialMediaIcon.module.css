@@ -1,0 +1,29 @@
+.icon {
+	height: 6rem;
+	fill: var(--color-light);
+	transition: all 0.2s; 
+	width: 6rem;
+	z-index: 1;
+}
+
+.icon:hover {
+	cursor: pointer;
+	fill: var(--color-primary);
+	transform: translateY(-3px);
+}
+
+@media only screen and (max-width: 56.25em) {
+  
+	.icon {
+		padding: 3rem; 
+	} 
+}
+
+@media only screen and (max-width: 37.5em) {
+ 
+	.icon {
+		height: 5rem;
+		padding: 1.5rem;
+		width: 5rem; 
+	} 
+}

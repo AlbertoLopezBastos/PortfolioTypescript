@@ -1,0 +1,131 @@
+.figure {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden; 
+}
+
+.figure a {
+  color: #f1f2f3; 
+}
+
+.github {
+  right: 4rem; 
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  background-size:cover;
+  z-index: -1;
+  transition: all 0.4s ease-in-out; 
+}
+
+.title, .web, .github {
+  position: absolute;
+  opacity: 0;
+  transition: all 0.4s ease-in-out; 
+}
+
+.web, .github {
+  font-size: 1.7rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  bottom: 4rem; 
+}
+
+.web:hover, .github:hover {
+  color: var(--color-primary); 
+}
+
+.project {
+  box-shadow: 0 1.5rem 4rem rgba(51, 51, 51, 0.2);
+  height: 25rem;
+  width: 40rem;
+  transition: all 0.4s;
+  border: 3px solid var(--color-primary);
+  margin: 2rem 0 1rem 0; 
+}
+
+.title {
+  color: #f4f4f4; 
+  top: 3rem;
+  left: 50%;
+  transform: translate(-50%); 
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center; 
+}
+
+.web {
+  left: 4rem; 
+}
+
+.web2, .github2 {
+  color: rgba(244, 244, 244, 0.8);
+  border: 1px solid rgba(244, 244, 244, 0.5);
+  box-shadow: 0 0.25rem 0.5rem rgba(244, 244, 244, 0.2);
+  padding: 0.5rem 2rem;
+  border-radius: 5rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-top: 2rem;
+  opacity: 0; 
+}
+
+.web2 {
+  float: left;
+}
+
+.github2 {
+  float: right; 
+}
+
+.project:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5); 
+}
+
+.project:hover .img {
+  filter: blur(2px) brightness(20%);
+  transform: scale(1.05); 
+}
+
+.project-thumb {
+  transform: scale(1);
+  transition: 0.25s ease-in-out; 
+}
+
+
+@media only screen and (max-width: 56.25em) {
+  
+  .project {
+    height: 20rem;
+    width: 30rem; 
+  }
+}
+
+@media only screen and (hover: hover) {
+
+  .project:hover .web, 
+  .project:hover .title,
+  .project:hover .github {
+    opacity: 1; 
+  }
+}
+
+@media only screen and (hover: none) {
+
+  .project:hover .title {
+    opacity: 1; 
+  }
+  
+  .project:hover .web, 
+  .project:hover .github {
+    display: none; 
+  }
+
+  .web2, .github2 {
+    opacity: 1; 
+  }
+}

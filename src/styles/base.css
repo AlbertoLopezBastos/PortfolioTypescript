@@ -1,0 +1,41 @@
+:root {
+  --color-light: #f4f4f4;
+  --color-dark: #333;
+  --color-primary: #988345;
+  --bg-dark: #1c1d25;
+  --bp-jumbo: 120em; 
+  --bp-largest: 75em; 
+  --bp-large: 68.75em; 
+  --bp-medium: 56.25em; 
+  --bp-small: 37.5em; 
+  --bp-smallest: 31.25em; 
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  color: var(--color-light);
+  background:var(--color-primary); 
+}
+
+html {
+  font-family: "Roboto", sans-serif; 
+  font-size: 62.5%; 
+}
+
+@media only screen and (max-width: 68.75em) {
+  html {
+    font-size: 50%; 
+  } 
+}
+
+
+
+
+
+
