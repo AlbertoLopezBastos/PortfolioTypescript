@@ -1,5 +1,4 @@
 import s from  './About.module.css';
-import Section from '../ui/Section';
 import Card from '../ui/Card';
 import Images from '../Images';
 

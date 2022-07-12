@@ -1,6 +1,5 @@
 import Button from '../ui/Button';
 import Nav from '../Nav'; 
-import Section from '../ui/Section';
 import s from './Home.module.css';
 import SocialMediaIcon from '../ui/SocialMediaIcon';
 

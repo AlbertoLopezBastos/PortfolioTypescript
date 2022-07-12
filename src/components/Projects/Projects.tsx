@@ -1,7 +1,6 @@
 
 import Project from '../ui/Project';
 import Images from '../Images';
-import Section from '../ui/Section';
 
 import s from './Projects.module.css';
 

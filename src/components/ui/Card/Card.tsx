@@ -1,4 +1,3 @@
-import { ReactNode } from 'react';
 import s from './Card.module.css';
 
 export interface ICardProps {
