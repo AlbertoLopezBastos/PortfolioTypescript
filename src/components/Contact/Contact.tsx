@@ -11,7 +11,7 @@ const Contact = () => {
     
     emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE || '', process.env.REACT_APP_EMAILJS_TEMPLATE || '', form.current || '', process.env.REACT_APP_EMAILJS_USER || '')
     .then((result : any) => {
-        alert(`I will contact you soon!, ${result}`);
+        alert(`I will contact you soon!`);
         e.target.reset();
     }, (error : any) => {
         console.log(error.text);
