@@ -1,39 +1,21 @@
-import emailjs from '@emailjs/browser';
+
 import { useRef } from 'react';
 import s from './Contact.module.css';
+import Button from '../ui/Button'
 
 const Contact = () => {
 
   const form = useRef<HTMLFormElement>(null);
   
-  const sendEmail = (e :any) => {
-    e.preventDefault();
-    
-    emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE || '', process.env.REACT_APP_EMAILJS_TEMPLATE || '', form.current || '', process.env.REACT_APP_EMAILJS_USER || '')
-    .then((result : any) => {
-        alert(`I will contact you soon!`);
-        e.target.reset();
-    }, (error : any) => {
-        console.log(error.text);
-    });
-  };
+
 
   return (
     <section id="contact" className={s.contact}>
-      <div className={s.title}>Contact me</div>
 
       <div className={s.content}>
-        <h4 className={s.headingFour}>Have a question or want to work together?</h4>
-
-        <form className={s.form} ref={form} id="contact-form"  onSubmit={sendEmail}>
-          <input className={s.inputName} type="text" name="user_name" placeholder="Name" required/>
-
-          <input className={s.inputEmail} type="email"  name="user_email" placeholder="Enter your email" required/>
-
-          <textarea className={s.textArea} rows={20} name="message" placeholder="Your Message" required />
-          
-          <input className={s.btn} type="submit" value="Submit" />
-        </form>
+        <h4 className={s.title}>Let's work <span className='textGradient'>together.</span></h4>
+        <h3 className={s.mail}>alberto.lopezbastos@gmail.com</h3>          
+        <Button title='Contact me' href='mailto:alberto.lopezbastos@gmail.com'/>
       </div>
     </section>
   );

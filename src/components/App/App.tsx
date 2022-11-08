@@ -13,7 +13,7 @@ const App = () => {
       <About/>
       <Projects/>
       <Contact/>
-      <Footer content="Copyright © 2022 Alberto Lopez Bastos"/>
+      <Footer content="© 2022 Alberto Lopez Bastos"/>
     </div>
   );
 };

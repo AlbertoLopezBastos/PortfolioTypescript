@@ -1,9 +1,10 @@
 .btn {
-	background-color: var(--color-primary);
+	background-color: var(--color-dark);
 	border-radius: 1.5rem;
 	color: var(--color-light);
 	display: inline-block;
-	font-size: 2rem;
+	font-size: 3rem;
+	font-weight: 800;
 	overflow: hidden;
 	padding: 1rem 4rem;
 	position: relative;
@@ -17,6 +18,7 @@
 	color: var(--color-light);
 	text-decoration: none;
 	transition: color 0.65s;
+	
 }
   
 .btn::before {
@@ -30,11 +32,13 @@
 	top: 0;
 	width: 3px;
 	z-index: -1; 
+	background-image:  linear-gradient(-45deg,#1e34f7,#1ef792,#f71eec,#f7df1e);
 }
   
 .btn:hover {
-	color: var(--color-dark);
+	color: var(--color-light);
 	cursor: pointer; 
+	
 }
   
 .btn:hover::before {
@@ -45,7 +49,8 @@
 .btn:hover > :link,
 .btn:hover > :active,
 .btn:hover > :visited {
-	color: var(--color-dark);
+	color: var(--color-light);
+	-webkit-text-stroke: 1px #000;
 	transform: translateZ(10000); 
 }
   

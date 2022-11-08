@@ -1,9 +1,6 @@
-.cardsGrid {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr); 
-  margin-bottom: 5rem; 
-  margin-top: 4rem;
-  width: 75vw;
+.about {
+  background-color: #000;
+  width: 100vw;
 }
   
 .container {
@@ -12,34 +9,31 @@
 	flex-direction: column;
 	margin: auto;
 	text-align: center; 
-  padding-bottom: 5rem; 
+  padding-bottom: 40rem; 
 }
   
 .text {
-	font-size: 2rem;
-	font-weight: 300;
-	line-height: 3rem;
-  margin-bottom: 5rem; 
-  width: 40vw; 
+  color: #fff;
+	font-size: 7rem;
+	font-weight: 700;
+  line-height: 7rem;
+  width: 60vw;
 }
 
-.title {
-  color: var(--color-primary);
-  font-size: 20rem;
-  font-weight: 500;
-  letter-spacing: -1rem;
-  opacity: 0.2; 
-  padding: 3rem 0rem 5rem 7rem;
+.logosGrid {
+	display: flex;
+  flex-wrap: wrap;
+	justify-content: center;
+	justify-items: center;
+	padding: 20rem 0; 
+  width: 80vw;
+  gap: 20rem;
 }
 
-@media only screen and (max-width: 75em) {
-  
-  .cardsGrid {
-    display: flex;
-    flex-direction: column; 
-    width: 100vw;
-  }
+.logo {
+  height: 100px;
 }
+
 
 @media only screen and (max-width: 68.75em) {
 
@@ -47,7 +41,20 @@
     font-size: 15rem; 
     padding-left: 0;
     text-align: center;
+  
   } 
+
+  .text {
+    font-size: 5rem;
+    line-height: 1.2;
+	} 
+
+  .logo {
+    height: 60px;
+  }
+
+
+  
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -55,6 +62,14 @@
 	.text {
 		width: 80vw; 
 	} 
+
+  .logosGrid {
+    gap: 10rem;
+  }
+
+  .logo {
+    height: 40px;
+  }
 }
 
 @media only screen and (max-width: 37.5em) {

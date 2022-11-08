@@ -1,15 +1,26 @@
 import movies from '../../img/projects/movies.png';
 import kimi from '../../img/projects/kimi.jpg';
-import front from '../../img/front.jpg';
-import back from '../../img/back.jpg';
-import test from '../../img/test.jpg';
+import html from '../../img/html5.svg';
+import css from '../../img/css3.svg';
+import tailwind from '../../img/tailwindcss.svg';
+import javascript from '../../img/javascript.svg';
+import react from '../../img/react.svg';
+import next from '../../img/nextjs.svg';
+import typescript from '../../img/typescript.svg';
+import node from '../../img/nodejs.svg';
+import graphql from '../../img/graphql.svg';
 
 const Images = {
   movies,
   kimi,
-  front,
-  back,
-  test
+  html,
+  css,
+  tailwind,
+  javascript,
+  react,
+  next,
+  node,
+  graphql
 };
 
 export default Images;

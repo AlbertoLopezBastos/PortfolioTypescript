@@ -1,7 +1,9 @@
 :root {
   --color-light: #f4f4f4;
-  --color-dark: #333;
-  --color-primary: #988345;
+  /* --color-dark: #333; */
+  --color-dark: #000;
+  /* --color-primary: #988345; */
+  --color-primary: #fff; 
   --bg-dark: #1c1d25;
   --bp-jumbo: 120em; 
   --bp-largest: 75em; 
@@ -17,6 +19,13 @@
   margin: 0;
   padding: 0;
 }
+
+.textGradient {
+  background-image: linear-gradient(-45deg,#1e34f7,#1ef792,#f71eec,#f7df1e);
+  background-clip: text;
+  color: transparent;
+}  
+  
 
 ::selection {
   color: var(--color-light);
