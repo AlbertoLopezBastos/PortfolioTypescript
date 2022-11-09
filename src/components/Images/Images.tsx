@@ -10,11 +10,25 @@ import next from '../../img/nextjs.svg';
 import typescript from '../../img/typescript.svg';
 import node from '../../img/nodejs.svg';
 import graphql from '../../img/graphql.svg';
+import acme from '../../img/projects/acme.jpg';
+import affwebdes from '../../img/projects/affwebdes.jpg';
+import carrito from '../../img/projects/carrito.jpg';
+import expensify from '../../img/projects/expensify.png';
+import mytunes from '../../img/projects/mytunes.jpg';
+import netflix from '../../img/projects/netflix.jpg';
+import pomodoro from '../../img/projects/pomodoro.png';
 
 const Images = {
   movies,
   kimi,
   tictactoe,
+  acme,
+  affwebdes,
+  carrito,
+  expensify,
+  mytunes,
+  netflix,
+  pomodoro,
   html,
   css,
   tailwind,
