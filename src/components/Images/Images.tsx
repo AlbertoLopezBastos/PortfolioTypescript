@@ -1,5 +1,6 @@
 import movies from '../../img/projects/movies.png';
 import kimi from '../../img/projects/kimi.jpg';
+import tictactoe from '../../img/projects/tictactoe.png';
 import html from '../../img/html5.svg';
 import css from '../../img/css3.svg';
 import tailwind from '../../img/tailwindcss.svg';
@@ -13,6 +14,7 @@ import graphql from '../../img/graphql.svg';
 const Images = {
   movies,
   kimi,
+  tictactoe,
   html,
   css,
   tailwind,
