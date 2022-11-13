@@ -9,7 +9,7 @@
 	flex-direction: column;
 	margin: auto;
 	text-align: center; 
-  padding-bottom: 40rem; 
+  padding-bottom: 20rem; 
 }
   
 .text {
@@ -25,7 +25,7 @@
   flex-wrap: wrap;
 	justify-content: center;
 	justify-items: center;
-	padding: 20rem 0; 
+	padding: 10rem 0 20rem 0; 
   width: 80vw;
   gap: 20rem;
 }
@@ -37,13 +37,6 @@
 
 @media only screen and (max-width: 68.75em) {
 
-  .title {
-    font-size: 15rem; 
-    padding-left: 0;
-    text-align: center;
-  
-  } 
-
   .text {
     font-size: 5rem;
     line-height: 1.2;
@@ -52,8 +45,6 @@
   .logo {
     height: 60px;
   }
-
-
   
 }
 
@@ -64,29 +55,20 @@
 	} 
 
   .logosGrid {
-    gap: 10rem;
+    gap: 5rem;
+    padding: 10rem 0 15rem 0; 
   }
 
   .logo {
     height: 40px;
   }
+
+  .container {
+    padding-bottom: 0rem; 
+  }
 }
 
-@media only screen and (max-width: 37.5em) {
 
-  .title{
-    font-size: 10rem;
-    letter-spacing: -0.5rem; 
-  } 
-}
-
-@media only screen and (max-width: 31.25em) {
-
-  .title {
-    font-size: 5rem;
-    letter-spacing: 0; 
-  } 
-}
   
 
 

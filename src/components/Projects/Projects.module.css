@@ -1,6 +1,6 @@
 .projects {
 	background-color: #000;
-	padding-bottom: 40rem; 
+	padding-bottom: 30rem; 
 }
   
 .grid {
@@ -35,6 +35,10 @@
 		column-gap: 0;
 		grid-template-columns: repeat(1, min-content);
 		padding: 5rem 0 25rem 0; 
-		row-gap: 5%;		
 	}
+
+	.projects {
+		padding-bottom: 5rem; 
+	}
+		
 }
