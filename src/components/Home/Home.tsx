@@ -2,11 +2,12 @@ import Nav from '../Nav';
 import s from './Home.module.css';
 import SocialMediaIcon from '../ui/SocialMediaIcon';
 
-
 const Home = () => {
+
   return (
     <section className={s.home}>
       <Nav/>
+
       <main className={s.hero}>
         <div className={s.heroPresentation}>
           <h1 className={s.headingOne}>Alberto <span className='textGradient'>Lopez Bastos </span></h1>

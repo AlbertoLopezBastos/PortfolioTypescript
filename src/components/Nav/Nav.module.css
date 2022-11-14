@@ -1,26 +1,30 @@
 .navbar {
 	align-items: center;
 	display: flex;
+	flex-wrap: wrap;
 	height: 10vh;
 	justify-content: flex-end;
-	margin: 0 auto; 
-	width: 80vw;
+	margin: 0 3rem; 
+}
+
+.switch {
+	padding: 1rem 2rem ;
 }
   
 .navbarBtn {
 	font-size: 2rem;
+	font-weight: 700;
 	padding: 0 3rem;
 	position: relative; 
 	transition: all 0.2s;
+	color: inherit;
 }
   
 .navbarBtn:link, .navbarBtn:active, .navbarBtn:visited {
-	color: var(--color-light);
 	text-decoration: none; 
 }
   
 .navbarBtn::after {
-	background-color: var(--color-primary);
 	bottom: -0.25rem;
 	content: "";	
 	height: 2px;
@@ -32,7 +36,6 @@
 }
   
 .navbarBtn:hover {
-	color: var(--color-primary);
 	cursor: pointer;
 }
 	

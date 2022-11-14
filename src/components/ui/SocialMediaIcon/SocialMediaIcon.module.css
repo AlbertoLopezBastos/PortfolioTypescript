@@ -1,14 +1,13 @@
 .icon {
 	height: 6rem;
-	fill: var(--color-light);
 	transition: all 0.2s; 
 	width: 6rem;
 	z-index: 1;
+	fill: inherit;
 }
 
 .icon:hover {
 	cursor: pointer;
-	fill: var(--color-primary);
 	transform: translateY(-3px);
 }
 

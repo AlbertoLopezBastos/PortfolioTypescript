@@ -1,13 +1,7 @@
-
-.home {
-  background-color: #000;
-  color: var(--color-light);
-}
-
 .hero {
   display: flex;
   justify-content: space-between;
-  padding: 15rem 0 50rem 0; 
+  padding: 10rem 0 45rem 0; 
 }
 
 .heroPresentation {
@@ -26,25 +20,18 @@
 }
 
 .headingOne {
-  color: var(--color-primary);
   font-size: 8rem;
   font-weight: 700;
   letter-spacing: -0.2rem;
 }
 
 .headingTwo {
-  color: var(--color-light);
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: 0.3rem; 
   margin-bottom: 2rem;
   text-transform: uppercase;
 }
-
-.javascript {
-  color:  #f7df1e;
-}
-
 
 @media only screen and (max-width: 75em) {
 
@@ -110,3 +97,4 @@
     padding: 2rem 0 15rem 0; 
   } 
 }
+

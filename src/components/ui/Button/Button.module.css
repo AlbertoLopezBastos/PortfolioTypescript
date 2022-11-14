@@ -17,8 +17,7 @@
 .btn > :visited {
 	color: var(--color-light);
 	text-decoration: none;
-	transition: color 0.65s;
-	
+	transition: color 0.65s;	
 }
   
 .btn::before {
