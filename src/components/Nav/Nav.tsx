@@ -19,7 +19,7 @@ const Nav = () => {
 	<nav className={s.navbar}>
 		<div>
 			<label  className={s.switch} >
-        <Switch offColor="#333" onColor='#fff' onHandleColor="#555" width={58}    checkedIcon={<Moon/>} uncheckedIcon={<Sun/>} checked={checked} onChange={handleChange}/>
+        <Switch offColor="#333" onColor='#ccc' onHandleColor="#555" width={58}    checkedIcon={<Moon/>} uncheckedIcon={<Sun/>} checked={checked} onChange={handleChange}/>
       </label>
 		</div>
 		<div>

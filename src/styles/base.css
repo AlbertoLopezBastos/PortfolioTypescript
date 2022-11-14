@@ -5,12 +5,6 @@
   /* --color-primary: #988345; */
   --color-primary: #fff; 
   --bg-dark: #1c1d25;
-  --bp-jumbo: 120em; 
-  --bp-largest: 75em; 
-  --bp-large: 68.75em; 
-  --bp-medium: 56.25em; 
-  --bp-small: 37.5em; 
-  --bp-smallest: 31.25em;   
 }
 
 *,
@@ -21,7 +15,7 @@
 
 }
 
-section{
+section {
   max-width: 200rem;
   margin: auto;
 }
@@ -45,14 +39,18 @@ section{
 }
 
 #Light {
-  background-color: #999;
+  background-color: rgb(255, 255, 255);
   color: #000;
   fill: #000;
   transition: all 0.3s;
 }
 
+#Light #reactLogo, #nodeLogo, #nextLogo {
+  filter: drop-shadow(1px 1px 2px black);  
+}
+
 #Light .textGradient {
-  text-shadow: 4px -3px 1px #f4f4f4;
+  filter: drop-shadow(2px 2px 1px black);  
 }
 
 #Light #resume-btn::after{
@@ -63,7 +61,6 @@ section{
   color: #0a0a0c;
   background: #f0db4f; 
 }
-
 
 html {
   font-family: "Roboto", sans-serif; 
