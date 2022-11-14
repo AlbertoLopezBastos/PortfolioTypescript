@@ -1,7 +1,7 @@
 .hero {
   display: flex;
   justify-content: space-between;
-  padding: 10rem 0 45rem 0; 
+  padding: 15rem 0 55rem 0; 
 }
 
 .heroPresentation {
@@ -44,7 +44,7 @@
 
   .hero {
     flex-direction: column;
-    padding: 15rem 0 15rem 0; 
+    padding: 15rem 0 20rem 0; 
   }
 
   .heroIcon {
@@ -68,7 +68,7 @@
 @media only screen and (max-width: 37.5em) {
 
   .hero {
-    padding: 15rem 0 25rem 0; 
+    padding: 20rem 0 25rem 0; 
   }
   
   .headingOne {
@@ -94,7 +94,7 @@
 @media only screen and (max-width: 31.25em) {
   
   .hero {
-    padding: 2rem 0 15rem 0; 
+    padding: 10rem 0 15rem 0; 
   } 
 }
 

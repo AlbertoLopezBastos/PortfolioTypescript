@@ -42,17 +42,3 @@
 .navbarBtn:hover::after {
 	width: 50%; 
 }
-
-@media only screen and (max-width: 56.25em) {
-	.navbar {
-		width: 80vw;
-	}
-}
-
-@media only screen and (max-width: 37.5em) {
-
-	.navbar {		
-		justify-content: center; 
-		width: 100vw;
-	}
-}
