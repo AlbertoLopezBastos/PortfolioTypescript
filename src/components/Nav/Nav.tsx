@@ -23,7 +23,7 @@ const Nav = () => {
       </label>
 		</div>
 		<div>
-			<a className={s.navbarBtn} id="resume-btn" href="./AlbertoLopezBastos.pdf" target="_blank" rel="noopener noreferrer" title="resume">Resume</a>
+			<a className={s.navbarBtn} id="resume-btn" href="./AlbertoLopezBastos-FrontEndDeveloper.pdf" target="_blank" rel="noopener noreferrer" title="resume">Resume</a>
 		</div>
 
   	</nav>
