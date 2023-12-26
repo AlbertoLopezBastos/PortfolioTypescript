@@ -11,6 +11,7 @@ import { useState } from 'react';
 const App = () => {
 
   const [theme, setTheme] = useState(Theme.Dark);
+  const currentYear = new Date().getFullYear();
 
   return (
     <ThemeContext.Provider value={{theme, setTheme}}>
@@ -19,7 +20,7 @@ const App = () => {
         <About/>
         <Projects/>
         <Contact/>
-        <Footer content="© 2022 Alberto Lopez Bastos"/>
+        <Footer content={`© ${currentYear} Alberto Lopez Bastos`}/>
       </div>
     </ThemeContext.Provider>
   );
