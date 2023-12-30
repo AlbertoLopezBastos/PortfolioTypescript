@@ -1,0 +1,42 @@
+.projects {
+	padding-bottom: 30rem; 
+}
+  
+.grid {
+	column-gap: 7.5rem;
+	display: grid;
+	grid-template-columns: repeat(3, min-content);
+	justify-content: center;
+	justify-items: center;
+	margin-bottom: 3rem;
+	padding: 5rem 0; 
+	row-gap: 10rem;
+}
+  
+.title {
+  font-size: 7rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 120em) {
+
+	.grid {
+		grid-template-columns: repeat(2, min-content); 
+	} 
+}
+  
+@media only screen and (max-width: 56.25em) {
+
+	.grid {
+		column-gap: 0;
+		grid-template-columns: repeat(1, min-content);
+		padding: 5rem 0 25rem 0; 
+	}
+
+	.projects {
+		padding-bottom: 5rem; 
+	}
+		
+}
